@@ -4,9 +4,8 @@
 4. Add/Remove Teams
 6. Add/Remove work type
 7. Add/Remove Employee
-    Also view employee info.
-9. View data
-10. Window to choose between entries and costs, workers, and teams
-11. View entries and costs via date range and party
-12. View all workers
-13. View all teams
+8. View data
+9. Window to choose between entries and costs, workers, and teams
+10. View entries and costs via date range and party
+11. View all workers
+12. View all teams
