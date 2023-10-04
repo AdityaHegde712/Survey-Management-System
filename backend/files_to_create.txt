@@ -1,0 +1,9 @@
+1. Entries manipulation (Add, Edit, delete) - 3 functions
+2. Cost calculation and view(for a given set of entries, use the 'view entry' function to get the entries, then calculate the costs using those entries and a helper function)
+3. Database initialization function
+4. Add/Remove - work types, workers, and teams.
+5. View - Entries, work types, workers' details, and teams.
+    Entry view - 1 function incorporating all 3, with 'None' as default value. Possibilities are only-date, only-party, or both. Else, error returned. 
+    a) View by date
+    b) View by party
+    (If only date range entered, show all. If only party entered, show all entries for that party. If both entered, show all entries for that party within that date range)

@@ -1,26 +1,38 @@
 # Survey Management Application
 ### Functional Features:
-#### Data Entry Module:
-- Users can input daily survey data.
+#### Daily Entry Module:
+- Users can add, update pay status, or delete daily survey work entries.
 - Fields include Date, Party name, location/address, Feed location as survey number, type of work, bill, and payment status (paid or unpaid).
-- Data can be saved and edited as needed.
+- Adding entry will have a single button
+- Updating pay status will toggle the status between paid and unpaid for the entry number
+- Deleting entry will delete the entered entry number from the table. 
 
 #### Team Management Module:
-- Users can create teams.
-- A head of each team can be specified.
+- Users can create and delete teams.
+- A head of each team can be specified during creation
 - Individual employees can be added to teams.
+- For team deletion, only the team leader needs to be specified.
+- If a selected member is already in a different team, a warning message will be displayed, and depending on the user’s choice, the member will be removed from the previous team and added to the new team, or the operation will be aborted.
 
-#### Entry Editing Module:
-- Users can edit individual survey entries to mark them as paid or unpaid.
-- Changes are saved and updated in the database.
+#### Work Type Module:
+- Users can add or delete work types. Name needs to be entered.
+- If the name does not exist, a warning message will be displayed.
+
+#### Employee Control Module:
+- Users can add or remove employees.
+- Name and phone number required for both operations.
 
 #### Data Viewing Module:
-- Users can view all survey work done within a specified date range.
-- Search options include date selection and party selection for that date range.
+- The most powerful module in this application.
+- Users can view entries and costs in various ways, including:
+  - Viewing all data
+  - Viewing data by date
+  - Viewing data by party name
+- Users can also choose to view all existing workers, teams, and work types.
 
 #### User Authentication Module:
 - User login and authentication system.
-- Access is restricted to three predefined users: MVHegde, Sagar Naik, and a third user (name to be specified). 
+- Access is restricted to three predefined users as per the agreed upon number. Subject to change.
 - Any updates would require change in database schema, and need developer’s attention.
 - (Depending on requirement): Additional feature to add/remove admin users by one superuser may be added.
 
